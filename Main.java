@@ -39,6 +39,11 @@ public class Main {
 				True
 		);
 
+		MelonType[] melonTypes = new MelonType[musk,casaba,crenshaw,yellowWatermelon];
+		for (int i =0;i < melonTypes.length; i++)
+		{
+			System.out.println(melonTypes[i]);
+		}
 
 	}
 
