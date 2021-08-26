@@ -83,4 +83,18 @@ public class Main {
 
 	}//end of MelonType class
 
+	//add sellability Report -trying to implement unique hashSet
+	Set <Melon> getSellabilityReport = new HashSet<>();
+        getSellabilityReport.add(melon1);
+        getSellabilityReport.add(melon2);
+        getSellabilityReport.add(melon3);
+        getSellabilityReport.add(melon4);
+        getSellabilityReport.add(melon5);
+        getSellabilityReport.add(melon6);
+        getSellabilityReport.add(melon7);
+
+        //printing out HashSet
+	 	for( Melon melon: etSellabilityReport){
+			System.out.println(melon);
+
 }//end of Main
