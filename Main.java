@@ -64,15 +64,17 @@ public class Main {
 
 			Melon melon7 = new Melon(melonTypes[3], 7, 10, 3, 'Sheila');
 
+
+
 			//melon behaviors -sellable/not sellable
 			//if both index 1 and 2 are greater than 5 && index 3 is != 3
 			public boolean isSellable(){
-				this.Melon = Melon
-				for (int i =0;i < melonTypes.length; i++){
+				this.Melon = Melon;
+				for (i =0; i < melonTypes.length; i++){
 					if (Melon[1,2] >5 && Melon[3] !=3){
-						return true
+						return true;// System.out.println("CAN BE SOLD");
 					}else{
-						return false
+						return false;//System.out.println("NOT SELLABLE");
 					}
 				}
 
@@ -82,19 +84,35 @@ public class Main {
 
 
 	}//end of MelonType class
+	public static void getSellabilityReport(Melon[] melons){
+		this.Melon = Melon;
+
+		for (i =0; i < melonTypes.length; i++){
+			System.out.println("Havested by "+ (Melon[4]) +" from Field "+(Melon[3]) + (Melon.isSellable()));
+
+		}
+
+
+	}
+
+
+
+
+
+
 
 	//add sellability Report -trying to implement unique hashSet
-	Set <Melon> getSellabilityReport = new HashSet<>();
-        getSellabilityReport.add(melon1);
-        getSellabilityReport.add(melon2);
-        getSellabilityReport.add(melon3);
-        getSellabilityReport.add(melon4);
-        getSellabilityReport.add(melon5);
-        getSellabilityReport.add(melon6);
-        getSellabilityReport.add(melon7);
-
-        //printing out HashSet
-	 	for( Melon melon: etSellabilityReport){
-			System.out.println(melon);
+//	Set <Melon> getSellabilityReport = new HashSet<>();
+//        getSellabilityReport.add(melon1);
+//        getSellabilityReport.add(melon2);
+//        getSellabilityReport.add(melon3);
+//        getSellabilityReport.add(melon4);
+//        getSellabilityReport.add(melon5);
+//        getSellabilityReport.add(melon6);
+//        getSellabilityReport.add(melon7);
+//
+//        //printing out HashSet
+//	 	for( Melon melon: etSellabilityReport){
+//			System.out.println(melon);
 
 }//end of Main
