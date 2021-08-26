@@ -64,9 +64,23 @@ public class Main {
 
 			Melon melon7 = new Melon(melonTypes[3], 7, 10, 3, 'Sheila');
 
-		}
+			//melon behaviors -sellable/not sellable
+			//if both index 1 and 2 are greater than 5 && index 3 is != 3
+			public boolean isSellable(){
+				this.Melon = Melon
+				for (int i =0;i < melonTypes.length; i++){
+					if (Melon[1,2] >5 && Melon[3] !=3){
+						return true
+					}else{
+						return false
+					}
+				}
+
+			}
+
+		}//end of Melon class
 
 
-	}
+	}//end of MelonType class
 
-}
+}//end of Main
