@@ -45,6 +45,28 @@ public class Main {
 			System.out.println(melonTypes[i]);
 		}
 
+		//adding harvest
+		//field data type, shape rating,color rating, harvest field #, harvested by..
+		public class Melon{
+
+
+			Melon melon1 = new Melon(melonTypes[3], 8, 7, 2, 'Sheila');
+
+			Melon melon2 = new Melon(melonTypes[3], 3, 4, 2, 'Sheila');
+
+			Melon melon3 = new Melon(melonTypes[1], 10, 6, 35, 'Sheila');
+
+			Melon melon4 = new Melon(melonTypes[2], 8, 9, 35, 'Michael');
+
+			Melon melon5 = new Melon(melonTypes[2], 8, 2, 35, 'Michael');
+
+			Melon melon6 = new Melon(melonTypes[0], 6, 7, 4, 'Michael');
+
+			Melon melon7 = new Melon(melonTypes[3], 7, 10, 3, 'Sheila');
+
+		}
+
+
 	}
 
 }
